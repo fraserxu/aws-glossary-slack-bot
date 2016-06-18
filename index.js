@@ -6,7 +6,7 @@ const text = genMessage(services[genRandomNumber()])
 const username = 'AWS service name in Plain English Bot'
 const channel = 'aws-learning-group'
 const icon_url = 'https://cloud.githubusercontent.com/assets/1183541/16170553/08442e28-359a-11e6-9afd-719ce44fe4d1.png'
-const token = process.env.TOKEN
+const token = process.env.SLACK_TOKEN
 
 const job = new CronJob({
   cronTime: '00 53 19 * * *',
