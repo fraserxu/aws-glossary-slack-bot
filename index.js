@@ -9,7 +9,7 @@ const icon_url = 'https://cloud.githubusercontent.com/assets/1183541/16170553/08
 const token = process.env.SLACK_TOKEN
 
 const job = new CronJob({
-  cronTime: '00 53 19 * * *',
+  cronTime: '00 00 22 * * *',
   onTick: function () {
     // Runs every day at 19:55:00 PM.
     sendMsg()
