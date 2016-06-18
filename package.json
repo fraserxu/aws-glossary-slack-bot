@@ -4,7 +4,6 @@
   "description": "Send a message to your slack channel daily of one service definition from AWS",
   "main": "index.js",
   "dependencies": {
-    "cron": "^1.1.0",
     "got": "^6.3.0"
   },
   "devDependencies": {},

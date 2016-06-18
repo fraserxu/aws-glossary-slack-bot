@@ -1,7 +1,7 @@
 # aws-glossary-slack-bot
 Send a message to your slack channel daily of one service definition from AWS
 
-<img width="896" alt="slack-bot" src="https://cloud.githubusercontent.com/assets/1183541/16170629/da3cbb28-359c-11e6-9225-83e933d45bb4.png">
+<img width="893" alt="slack bot" src="https://cloud.githubusercontent.com/assets/1183541/16170686/472e5a5a-359f-11e6-98b4-6a7e79cc0ee8.png">
 
 ### Requirement
 
