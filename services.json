@@ -1,0 +1,128 @@
+[
+  {
+    "name": "EC2 (Elastic Compute Cloud)",
+    "purpose": "Host full server software",
+    "analogy": "A virtual machine used as a server that can be scaled vertically or horizontally.",
+    "category": "Run an App Services"
+  },
+  {
+    "name": "S3 (Simple Storage Service)",
+    "purpose": "Host files without running your own file server",
+    "analogy": "This is like most other personal online file storage service, except developers often use this as the website file storage service (e.g. hosting images and videos).",
+    "category": "Run an App Services"
+  },
+  {
+    "name": "VPC (Virtual Private Cloud)",
+    "purpose": "Provision a logical (as opposed to physical) private network",
+    "analogy": "A virtual private network and allows you to allocate and link your AWS resources within this private network. This also has the benefit of shielding resources from the public internet for additional protection.",
+    "category": "Run an App Services"
+  },
+  {
+    "name": "IAM (Identity and Access Management)",
+    "purpose": "Access control. Set up additional Users, AWS Keys, and Policies for resource access.",
+    "analogy": "Additional logins that you assign to your web developers or system administrators except with more fine grained control.",
+    "category": "Run an App Services"
+  },
+  {
+    "name": "Lambda",
+    "purpose": "Run self contained snippets of your own code without managing servers (no new languages, tools, or frameworks needed). Commonly used to run code to setup AWS or in response to AWS resources such as S3 or DynamoDB.",
+    "analogy": "Hosting your own code in a server.",
+    "category": "Run an App Services"
+  },
+  {
+    "name": "API Gateway",
+    "purpose": "Host and scale API endpoints for your website or application",
+    "analogy": "API server hosted by AWS.",
+    "category": "Web Developer Services"
+  },
+  {
+    "name": "RDS (Relational Database Service)",
+    "purpose": "Host and scale SQL databases. Also supports automatic backup.",
+    "analogy": "SQL databases hosted by AWS. Similar to Mysql, Postgres, and Oracle database.",
+    "category": "Web Developer Services"
+  },
+  {
+    "name": "Route53",
+    "purpose": "Create a highly available and scalable Domain Name System (DNS) for your web apps. Route53 also supports Private DNS feature for your Virtual Private Clouds (VPCs), so you can use custom domain names for your internal AWS resources without exposing DNS data to the public Internet.",
+    "analogy": "DNS service.",
+    "category": "Web Developer Services"
+  },
+  {
+    "name": "SES (Simple Email Service)",
+    "purpose": "Send emails with high email deliverability without managing your own email servers.",
+    "analogy": "Mail Transfer Agent software hosted AWS. Similar to Sendmail or Postfix.",
+    "category": "Web Developer Services"
+  },
+  {
+    "name": "Cloudfront",
+    "purpose": "Distribute content to end users with low latency and high data transfer speeds at CDN servers across the world",
+    "analogy": "Global CDN servers",
+    "category": "Web Developer Services"
+  },
+  {
+    "name": "CloudSearch",
+    "purpose": "Host and scale a search index for your website or application.",
+    "analogy": "Fulltext search hosted by AWS. Similar to Sphinx.",
+    "category": "Web Developer Services"
+  },
+  {
+    "name": "DynamoDB",
+    "purpose": "Host and scale NoSQL databases. Store/Query structured data for consistent, single-digit millisecond latency at any scale. DynamoDB supports both document and key-value store models.",
+    "analogy": "NoSQL databases hosted by AWS. Similar to MongoDB and Apache Cassandra.",
+    "category": "Web Developer Services"
+  },
+  {
+    "name": "Elasticache",
+    "purpose": "Host and scale an in-memory cache. ElastiCache supports two open-source in-memory caching engines: Memcached and Redis",
+    "analogy": "In-memory caching server hosted by AWS. Similar to Memcached and Redis.",
+    "category": "Web Developer Services"
+  },
+  {
+    "name": "Elastic Transcoder",
+    "purpose": "Transcode media files in the Cloud.",
+    "analogy": "Dedicated media transcode servers hosted by AWS.",
+    "category": "Web Developer Services"
+  },
+  {
+    "name": "SQS (Simple Queue Service)",
+    "purpose": "Host and scale a messaging service. The purpose of a Queue is to decouple \"message producers\" from \"message consumers\" (because the \"message consumers\" may not be able to respond to messages as fast as \"message producers\" expect). The message can be any text and can contain up to 256KB of text in any format. An real world example of this service can be a large scale mobile voting App. The SQS would sit between the App and the backend application and could happily absorb up to millions of messages/sec while the backend application tally up the votes (or even perform some simple analytics. e.g. prevent duplicates) as fast as possible.",
+    "analogy": "Message queuing systems hosted by AWS.",
+    "category": "Web Developer Services"
+  },
+  {
+    "name": "WAF (Web Application Firewall)",
+    "purpose": "Protect your web applications from common web exploits such as SQL injection, cross-site scripting, and/or rules designed for your specific web application.",
+    "analogy": "Software based application firewall hosted by AWS.",
+    "category": "Web Developer Services"
+  },
+  {
+    "name": "CodeCommit",
+    "purpose": "Host version controlled code",
+    "analogy": "Hosted Git repository",
+    "category": "Ops and Code Deployment Services"
+  },
+  {
+    "name": "CodeDeploy",
+    "purpose": "Deploy App assets onto a group of EC2 instances using pre-defined AppSpec file executed by CodeDeploy.",
+    "analogy": "Nothing exactly the same; PaaS services such as Heroku is probably closest.",
+    "category": "Ops and Code Deployment Services"
+  },
+  {
+    "name": "CodePipeline",
+    "purpose": "Builds, tests, and deploys your code every time there is a code change, based on the release process models you define.",
+    "analogy": "Services such as CircleCI and Travis",
+    "category": "Ops and Code Deployment Services"
+  },
+  {
+    "name": "EC2 Container Service",
+    "purpose": "Run and scale Docker containers without managing your own EC2 clusters.",
+    "analogy": "Amazon Docker as a Service",
+    "category": "Ops and Code Deployment Services"
+  },
+  {
+    "name": "Elastic Beanstalk",
+    "purpose": "Host Apps without managing servers",
+    "analogy": "AWS's Platform as a Service",
+    "category": "Ops and Code Deployment Services"
+  }
+]

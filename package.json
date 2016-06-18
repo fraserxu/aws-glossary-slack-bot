@@ -1,0 +1,30 @@
+{
+  "name": "aws-glossary-slack-bot",
+  "version": "1.0.0",
+  "description": "Send a message to your slack channel daily of one service definition from AWS",
+  "main": "index.js",
+  "dependencies": {
+    "got": "^6.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fraserxu/aws-glossary-slack-bot.git"
+  },
+  "keywords": [
+    "aws",
+    "heroku",
+    "bot",
+    "slack",
+    "cron"
+  ],
+  "author": "Fraser Xu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fraserxu/aws-glossary-slack-bot/issues"
+  },
+  "homepage": "https://github.com/fraserxu/aws-glossary-slack-bot#readme"
+}
